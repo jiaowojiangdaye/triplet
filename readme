@@ -1,0 +1,16 @@
+训练数据的形式：
+1. .csv/txt格式类别列表
+2. 以文件夹为类名的数据集
+
+主函数： triplet_vgg16_main.py
+
+参数修改：triplet_vgg16_net.py 文件中的get_args()函数
+更改数据集的时候修改参数：
+1. image_base_dir：图片根目录
+2. class_list_file：.csv/txt格式类别列表
+3. nrof_classes：类别条目（分类任务的最后一层全连接的问题）
+
+迁移学习使用vgg的预训练参数
+
+
+
